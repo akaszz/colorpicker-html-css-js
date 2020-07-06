@@ -181,7 +181,7 @@ Nav
 */
 nav {
   background: var(--clr-white);
-  height: 5rem;
+  height: 3rem;
   display: grid;
   align-items: center;
   box-shadow: var(--dark-shadow);
@@ -207,7 +207,7 @@ nav a {
   font-size: 1rem;
   color: var(--clr-primary-1);
   letter-spacing: var(--spacing);
-  margin-right: 1rem;
+  margin-right: 3rem;
 }
 nav a:hover {
   color: var(--clr-primary-5);
@@ -231,6 +231,17 @@ main {
   padding: 1rem;
   border-radius: var(--radius);
   margin-bottom: 2.5rem;
+}
+h5 {
+  background: var(--clr-black);
+  background: content-box;
+
+  color: black;
+  padding: 1rem;
+  border-radius: var(--radius);
+  font-size: 30px;
+  margin-top: 7rem;
+  text-align: center;
 }
 .color {
   color: var(--clr-primary-5);
